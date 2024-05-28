@@ -1,0 +1,87 @@
+/*Selectionne tout les elements*/
+*{	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+
+}
+
+html, body{
+	height: 100vh;
+	width:100vw;
+}
+
+.navbar{
+	display:flex;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+.navbar-title > h1{
+	color: #0e24bc;
+
+}
+
+.link > a{
+	color: #0e24bc;
+	text-decoration: none;
+	transition: .s ;
+}
+
+.link > a:hover{
+	color: #0e24bc;
+}
+
+.intro{
+	margin: 20px;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+.intro > h1{
+	margin-bottom: 15px;
+}
+
+.intro > p{
+	width: 80%;
+}
+
+.projets{
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+.pliste{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	gap:50px;
+}
+
+.pcard{
+	background-color: #0e24bc;
+	color: #ffffff;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 20px;
+	padding: 15px; 
+	border-radius: 7px;
+}
+
+/*button*/
+.card-title >h4{
+	font-size: 18px;
+}
+
+.card-title > button{
+	border-radius: 10px;
+	border: 1px solid black;
+	padding: 7px 10px;
+	background-color: #ffffff;
+}
+
+.boutton{
+	text-decoration: none;
+	color:#0e24bc ;
+}
