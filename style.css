@@ -51,12 +51,16 @@ html, body{
 	margin-top: 20px;
 	margin-left: 20px;
 	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
 }
 
-.pliste{
-	display: grid;
-	grid-template-columns:1fr 1fr 1fr;
-	gap:50px;
+.projets_card{
+	width: 100%;
+    display: grid;
+	background-color: aqua;
+
 }
 
 .pcard{
